@@ -147,6 +147,3 @@ for epoch in range(num_epochs):
         save_image(gen_imgs.data[:25], f"images/{epoch}.png", nrow=5, normalize=True)
 
 print("GAN training complete.")
-
-
-# Placeholder for image saving
